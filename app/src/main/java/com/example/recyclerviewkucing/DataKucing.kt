@@ -1,0 +1,76 @@
+package com.example.recyclerviewkucing
+
+object DataKucing {
+
+    private val namaKucing = arrayOf("Kucing Bengal",
+        "Kucing Chartreux",
+        "Kucing Himalaya",
+        "Kucing Maine Cone",
+        "Kucing Munchkin",
+        "Kucing Pallas",
+        "Kucing Persia",
+        "Kucing Ragdoll",
+        "Kucing Scottish Fold",
+        "Kucing Siam",)
+
+    private val gambarKucing = arrayOf(R.drawable.k_bengal,
+        R.drawable.k_chartreux,
+        R.drawable.k_himalaya,
+        R.drawable.k_main_coon,
+        R.drawable.k_munchkin,
+        R.drawable.k_palas,
+        R.drawable.k_persia,
+        R.drawable.k_ragdoll,
+        R.drawable.k_scotish_fold,
+        R.drawable.k_siam)
+
+    private val detailKucing = arrayOf("Kucing bengal adalah keturunan keempat dari hasil persilangan antara kucing american shorthair dengan kucing asian leopard.[1] Kucing ini berasal dari California, Amerika Serikat.[2] Meskipun tergolong kucing hutan, tetapi ras bengal termasuk hewan yang banyak digemari dan dijadikan hewan peliharaan.[3] Kucing ini memiliki ukuran badan yang panjang dengan otot-otot pada tubuhnya yang kuat.[4] Ia memiliki tulang yang besar dan tebal, serta bulu yang tebal, rapat dan halus.[4] Dalam proses pemeliharaannya, kucing ini memerlukan perawatan khusus pada bulunya, yaitu dengan digosok secara lembut menggunakan sikat yang halus.[4] Populasi kucing bengal belum begitu banyak sehingga harganya tergolong tinggi, yaitu bisa mencapai 10-40 juta rupiah.\n" +
+            "Kucing bengal termasuk kucing yang aktif dan cerdas.[1] Salah satu ciri khasnya adalah menyukai air, mereka tidak akan keberatan jika seluruh tubuhnya basah terkena air, lain dengan kucing pada umumnya. Mereka sangat suka mandi dan berendam di bathub bersama pemiliknya.[3][6]\n" +
+            "Selain itu, kucing bengal juga suka menghabiskan waktu dengan melakukan permainan bersama manusia termasuk anak-anak.[7] Meskipun tergolong aman, anak-anak harus tetap dalam pengawasan ketika bermain bersama dengannya di dalam rumah\n",
+        "Chartreux adalah salah satu ras kucing domestik yang berasal dari Prancis. Ras kucing ini sangat mirip dengan kucing bulu pendek britania raya\n" +
+                "Chartreux adalah kucing berbadan besar dan berotot dengan bulu yang pendek. Chartreux dikenal sebagai kucing dengan bulu pendek dua lapis yang berwarna biru. Bulunya ini tahan dengan air. Mata chartreux berbentuk oval dan berwarna tembaga. Chartreux wajahnya terlihat seperti tersenyum, karena chartreux memiliki struktur tengkorak dan rahang yang sedikit berbeda.\n" +
+                "Chartreux adalah kucing yang sangat cerdas, tenang, pendiam, aktif, senang bermain, dan mudah dilatih. Chartreux sangat bagus untuk anak-anak dan hewan peliharaan lainnya. Chartreux dikenal sebagai kucing pemburu yang hebat. Chartreux adalah kucing yang senang keluar rumah, tidak agresif, dan kucing yang sehat.\n",
+        "Kucing himalaya atau kucing persia himalaya (dahulu bernama kucing persia warna poin) adalah salah satu ras kucing domestik yang merupakan hasil persilangan antara kucing persia dengan kucing siam. Persilangan tersebut bertujuan untuk mendapatkan ras kucing dengan tipe badan yang sama seperti kucing persia, tetapi dengan pola warna seperti kucing siam. Kucing himalaya sangat identik dengan mata yang berwarna biru dan pola warna poin.\n" +
+                "Kucing himalaya adalah kucing yang bertubuh gemuk, besar, dan bulat dengan kaki yang pendek seperti kucing persia. Hal tersebut membuat mereka sulit untuk melompat. Namun, beberapa ras kucing ini ada yang memiliki tubuh seperti kucing siam, yaitu tubuh yang langsing, ramping, dan anggun.\n" +
+                "Kucing himalaya dibagi menjadi dua jenis berdasarkan bentuk wajahnya, yaitu kucing himalaya wajah boneka dan kucing himalaya wajah datar. Kucing himalaya wajah boneka memiliki wajah yang sedikit pesek jika dilihat dari samping, sementara kucing himalaya wajah datar memiliki wajah yang sangat pesek jika dilihat dari samping sehingga terlihat seperti datar.[3]\n" +
+                "Kucing himalaya memiliki bulu warna poin yang panjang pada telinga, wajah, kaki dan ekornya. Bulunya hadir dengan gabungan pola tabi, links, atau torti dengan warna anjing laut, biru, ungu, merah, krem, atau cokelat.\n",
+        "Maine coon (disebut juga sebagai kucing bulu panjang amerika) adalah salah satu ras kucing tertua dan alami yang berasal dari Maine, Amerika Serikat. Ras ini dipercayai nenek moyangnya berasal dari ras anggora dan kucing hutan norwegia.\n" +
+                "Maine coon adalah kucing berbadan besar dan tinggi dengan berat jantan sekitar 6–9 kg dan betina sekitar 4–6 kg. Tubuhnya dapat mencapai ketinggian hingga sekitar 1 meter. Maine coon merupakan kucing yang kuat dan berotot. Kucing ini memiliki pertumbuhan dewasa yang lama, yaitu sekitar 3-5 tahun.[2]\n" +
+                "Maine coon memiliki kepala yang sedang dan lebar dengan dahi yang sedikit melengkung dan tulang pipi yang menonjol. Matanya besar dan berbentuk seperti oval. Hidungnya lebar dan di bagian ujungnya sedikit melengkung dan dagunya terlihat tajam. Telinganya besar dengan bagian bawahnnya lebar dan dibagian ujungnya lancip. Lehernya kuat dengan panjang yang sedang. Kakinya sedang dengan tulang dan otot yang kuat dan ekornya panjang.\n",
+        "Kucing munchkin adalah salah satu ras kucing berkaki pendek yang terbentuk karena mutasi genetik alami. Ras ini baru mulai dikembangbiakkan sekitar tahun 1980-an di Amerika Serikat, negara asalnya.[1] Karena kakinya yang pendek, munchkin menjadi salah satu ras kucing terkecil di dunia.[2]\n" +
+                "Munchkin ada yang berbulu panjang dan pendek. Karena keunikan ras kucing ini, munchkin sering dipersilangkan denga ras lain. Munchkin adalah nenek moyang dari beberapa ras kucing berkaki pendek baru, yaitu nenek moyang ras skookum (persilangan dengan ras laperm), ras minskin dan bambino (persilangan dengan ras sfinks), ras lambkin (persilangan dengan ras rex selkirk), ras genetta (persilangan dengan ras bengal), dan ras napoleon (persilangan dengan ras persia, himalaya, dan eksotis).\n" +
+                "Munchkin adalah ras kucing yang sangat suka bermain dan mudah beradaptasi. Munchkin sangat sering sekali duduk dengan posisi seperti kelinci sedang duduk.[2] Munchkin jantan beratnya dapat mencapai sekitar 3–4 kg dan lebih besar dari betinanya. Kaki bagian belakang akan terlihat lebih panjang daripada kaki bagian depan, sehingga munchkin dapat terlihat seperti membungkuk. Namun, jika terlalu membungkuk, munchkin dapat didiskualifikasi dalam sebuah kontes kucing.[3]\n" +
+                "Pada awalnya, banyak yang mengira kalau munchkin akan memiliki masalah pada tulang belakang, seperti yang sering terdapat pada anjing berkaki pendek. Namun, ternyata hal itu tidak terbukti pada munchkin. Karena pada tahun 1995, beberapa peternak kucing munchkin melakukan röntgen dan tidak menemukan masalah pada sendi dan tulang pada ras ini. Tetapi, munchkin juga dapat terkena lordosis, yaitu tulang belakang yang melengkung berlebihan, dan pektus ekskavatum, yaitu dada yang berlubang.\n",
+        "Kucing Pallas (Otocolobus manul syn. Felis manul), juga disebut Manul, adalah kucing liar kecil yang dinamai setelah naturalis Jerman Peter Simon Pallas, yang pertama kali mendeskripsikan spesies pada tahun 1776.[1] Pada tahun 2002, IUCN mengklasifikasikan kucing Pallas hampir terancam karena penyebaran luas tetapi tidak merata di padang rumput dan stepa Asia Tengah. Spesies ini tidak dipengaruhi oleh degradasi habitat, penurunan basis mangsa, dan perburuan.\n" +
+                "Kucing Pallas seukuran kucing domestik, dengan 46–65 cm panjang tubuh dan 21–31 cm panjang ekor. Beratnya 2,5-4,5 kilogram. Kombinasi dari postur kekar dan panjang, bulu lebat membuatnya tampak gagah dan empuk. Bulunya kekuningan dengan bar vertikal gelap pada batang tubuh dan kaki depan. Warna bulu dimusim dingin kelabu dan kurang berpola dari warna bulu dimusim panas. Ada cincin hitam yang jelas pada titik-titik ekor dan gelap pada dahi. Pipi berwarna putih dengan garis-garis hitam tipis sepanjang sudut mata. Dagu dan tenggorokan juga putih, menyatu ke dalam bulu halus dan keabu-abuan dari bagian bawah. Konsentris putih dan hitam dipinggiran sekitar mata menonjolkan bentuk bulat mereka. Kaki yang proporsional lebih pendek daripada kucing lainnya, telinga sangat rendah dan lebar, dan memiliki cakar sangat pendek. Wajah lebih pendek dibandingkan dengan kucing lain, memberikan wajah rata. Rahang yang lebih pendek memiliki gigi lebih sedikit daripada yang biasa di antara felids, dengan pasangan premolar atas pertama tidak ada.\n",
+        "Kucing persia adalah ras kucing domestik berbulu panjang dengan karakter wajah bulat dan moncong pendek. Namanya mengacu pada Persia, nama lama Iran, di mana kucing serupa ditemukan. Sejak akhir abad 19, kucing jenis ini dikembangkan di Britania Raya dan Amerika Serikat usai Perang Dunia II.[1] Di Britania Raya, ras ini disebut kucing bulu panjang Persia, dibagi dalam dua jenis, yaitu Chinchilla dengan warna perak cerah dan yang agak gelap.\n" +
+                "Seperti halnya dengan ras Siam, telah ada upaya oleh beberapa peternak untuk melestarikan ras kucing yang lebih tua, ras tradisional, yang memiliki moncong lebih jelas, yang lebih akrab dengan masyarakat umumnya.\n" +
+                "Pembiakan selektif yang dilakukan oleh peternak telah memungkinkan pengembangan berbagai warna bulu, tetapi juga menyebabkan makin datarnya wajah, yang mungkin membawakan sejumlah masalah kesehatan. Penyakit ginjal polikistik turunan lazim dialami oleh ras ini, yang mempengaruhi hampir separuh populasinya di beberapa negara.\n" +
+                "Kucing persia pada umumnya memiliki bentuk tubuh yang gemuk, besar, dan tambun. Selain itu, yang menjadi khas juga dalam kucing persia ini adalah bentuk hidungnya yang pesek, wajahnya terlihat bulat, dan memiliki bulu yang panjang. Jika diamati dari samping, dahi, hidung, dan dagu terlihat sangat datar. Kucing persia juga memiliki sifat yang manja.\n" +
+                "Kucing persia hasil persilangan dengan ras kucing lainnya biasanya beberapa ciri-cirinya hilang. Ada yang mempunyai warna bulu baru, hidung yang sedikit mancung, bentuk tubuh yang lebih ramping dari kucing Persia pada umumnya, dan ada pula yang mempunyai bulu yang lebih pendek.\n",
+        "Ragdoll adalah salah satu ras kucing terbesar di dunia yang telah diakui oleh Guinness World Records. Ragdoll awalnya dikembangkan oleh Ann Baker dari Amerika Serikat.\n" +
+                "Ragdoll adalah kucing berbadan besar, dada yang lebar, dan panggul yang besar, dengan berat badan jantan sekitar 12-20 pon (5.4-9 kg) dan betina 10-15 pon (5.4-6.8 kg). Bulu Ragdoll panjangnya sedang, dengan tekstur seperti bulu pada kelinci. Selain itu, Ragdoll memiliki 4 pola warna, yaitu bicolor (dua warna), mitted, vandan point (solid, lynx, dan tortie).\n" +
+                "Ragdoll merupakan kucing yang cenderung mudah beradaptasi dengan hewan peliharaan lainnya, seperti kucing lain, anjing atau hamster. Selain itu, Ragdoll juga dikenal lebih vokal dan bersuara atau mengeong lebih banyak dibandingkan dengan kucing pada umumnya.[3]\n" +
+                "Meskipun berbadan besar ternyata Ragdoll memiliki kepribadian yang jinak dan manja seperti sifat yang sering ditemukan pada kucing persia.\n",
+        "Kucing telinga lipat skotlandia (bahasa Inggris: Scottish Fold cat; dahulu bernama flops) adalah salah satu ras kucing alami yang berasal dari Skotlandia. Ciri khas dan keunikannya adalah terdapat pada telingnya yang melipat, sehingga ras ini disebut dengan kucing berwajah burung hantu atau kucing coupari. Namun, beberapa kucing telinga lipat skotlandia ada yang lahir dengan telinga yang tidak terlipat, yaitu telinga yang tegak dan meruncing seperti kucing biasanya.\n" +
+                "Kucing telinga lipat skotlandia adalah kucing berbadan sedang, dengan berat badan jantan sekitar 4–6 kg dan betina sekitar 2.7–4 kg. Kucing telinga lipat skotlandia memiliki kepala yang bulat, mata yang besar dan bulat, hidung yang pesek, serta leher dan kakinya pendek. Ras ini juga terdapat 2 versi, yaitu bulu panjang dan bulu pendek.[1]\n" +
+                "Jenis kucing ini ternyata merupakan jenis kucing domestik dengan mutasi gen dominan alami. Hal inilah yang memengaruhi tulang rawannya dan menyebabkan telinganya terlihat seperti melipat.\n" +
+                "Kucing telinga lipat skotlandia adalah kucing yang baik, ramah, tenang, dan senang. Kucing telinga lipat skotlandia juga merupakan kucing yang bersahabat, senang bermain, cukup cerdas, memiliki suara yang lembut, dan mudah beradaptasi. Keunikan lainnya dari Kucing telinga lipat skotlandia adalah kucing ini tidak dapat mendengkur, dapat tidur terlentang, serta senang duduk dengan dua kaki belakang yang lurus dan dua kaki depan yang berada di perut.\n",
+        "Kucing siam adalah salah satu ras kucing pertama yang diakui jelas sebagai kucing berjenis oriental. Sesuai dengan namanya, kucing siam berasal dari negara Siam (sekarang Thailand), sehingga ras kucing ini sangat mudah ditemukan di negara Thailand.\n" +
+                "Kucing siam memiliki tubuh ramping, kaki dan ekor yang panjang, dan mata yang berwarna biru. Kucing siam memiliki bulu yang pendek dan dapat dikenali dari bulunya sebagai penanda di kakinya, ekornya, ataupun wajahnya yang berwarna ungu, biru, lynx, merah, atau cokelat tua. Pola warna pada bulu kucing siam di antaranya adalah, titik merah, titik cokelat gelap, titik cokelat tua, titik biru, titik abu-abu, dan titik ungu. Warna bulu kucing siam akan bertambah gelap seiring dengan pertumbuhan umurnya. Berat badan kucing siam jantan biasanya sekitar 4-7 kg, sedangkan betina sekitar 5 kg. Kucing siam jantan dapat tumbuh hingga setinggi 60 cm, sedangkan betina hanya dapat setinggi 53 cm.\n" +
+                "Kucing siam adalah kucing yang ramah dan ada yang memiliki suara lembut dan ada yang keras. Yang paling terkenal dari kucing siam adalah karakternya yang cerdas, rasa ingin tahu yang tinggi, dan kelincahannya. Kucing siam senang bermain dan selalu aktif. Kucing ini mudah beradaptasi, sehingga dapat tinggal bersama hewan lain.\n" +
+                "Siam adalah kucing yang dapat bersifat keras kepala dan menuntut dengan cara mengeluarkan meongan yang keras. Siam adalah kucing yang tidak suka ditinggali sendirian di dalam rumah, sehingga kucing siam sangat senang jika selalu ditemani dan selalu diperhatikan, dan kucing siam tidak cocok dipelihara oleh pemilik yang selalu keluar rumah.\n",)
+
+    val listData : ArrayList<Kucing>
+        get() {
+            val list = arrayListOf<Kucing>()
+            for (posisi in namaKucing.indices){
+                val kucing = Kucing()
+                kucing.nama = namaKucing[posisi]
+                kucing.detail = detailKucing[posisi]
+                kucing.photo = gambarKucing[posisi]
+                list.add(kucing)
+            }
+            return list
+        }
+}

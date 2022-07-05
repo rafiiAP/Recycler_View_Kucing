@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Recycler View Kucing</string>
+    <string name="nama_kucing">nama kucing</string>
+    <string name="detail">detail</string>
+    <string name="rafii_ananda_putra">Rafii Ananda Putra</string>
+    <string name="email">prafi726@gmail.com</string>
+    <string name="contact">Contact Person \n\n Instagram \n LinkedIn</string>
+    <string name="sosmedku">\n\n: rafii_putra08\n: rafii_ananda_putra</string>
+    <string name="profil">profile</string>
+</resources>
